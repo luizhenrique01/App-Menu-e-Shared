@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/menu_cores">
+
+        <item android:title="@string/amarelo"
+            android:id="@+id/troca_amarelo"
+            android:onClick="amarelo"
+            />
+
+        <item android:title="@string/cinza"
+            android:id="@+id/action_cinza"
+            android:onClick="cinza"/>
+
+    </group>
+
+</menu>
